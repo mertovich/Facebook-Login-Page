@@ -1,6 +1,7 @@
 import React from 'react'
 import {Col, Row} from 'react-bootstrap'
 import LeftSection from '../components/LeftSection'
+import RightSection from '../components/RightSection'
 
 const Home  = () => {
   return(
@@ -11,10 +12,12 @@ const Home  = () => {
         width: '100%',
       }} >
       <Row>
-        <Col>
+        <Col sm={true}>
           <LeftSection/>
         </Col>
-        <Col></Col>
+        <Col>
+          <RightSection/>
+        </Col>
       </Row>
     </div>
   )

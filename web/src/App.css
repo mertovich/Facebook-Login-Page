@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+.right-section-container{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* left seciton */
+.left-section-div{
+        margin-top: 20%;
+        margin-left: 45%;
+        margin-right: 5%;
 }
+/* left end */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+/* right seciton */
+.right-section-div{
+  margin-top: 15%;
+  margin-left: 10%;
+  margin-right: 45%;
+}
+/* right end */
+
+/* media screen */
+@media screen and (max-width: 600px) {
+  .left-section-div{
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .right-section-div{
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 992px) {
+  .left-section-div{
+    margin-top: 40%;
+    margin-left: 5%;
+    margin-right: 10%;
   }
-  to {
-    transform: rotate(360deg);
+  .right-section-div{
+    margin-top: 25%;
+    margin-left: 5%;
+    margin-right: 10%;
   }
 }
+/* end screen */

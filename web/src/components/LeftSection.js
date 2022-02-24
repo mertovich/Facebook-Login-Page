@@ -1,13 +1,11 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
+import '../App.css'
 
-const LeftSection = () =>{
-  return(
-    <div>
-      <Container style={{
-        marginTop: '40%',
-        marginLeft: '5%',
-        }} >
+const LeftSection = () => {
+  return (
+    <div className='left-section-div'>
+      <Container>
         <h1 style={{
           color: '#1778F2',
           fontSize: '4.0rem',
@@ -16,11 +14,12 @@ const LeftSection = () =>{
         <p style={{
           fontSize: '1.3rem',
           fontWeight: 'bold',
-          color: 'grey'
-          }}>
-            Facebook lets you communicate with people you know 
-            and share what's going on in your life.
-          </p>
+          color: 'grey',
+          textAlign: 'justify',
+        }}>
+          Facebook lets you communicate with people you know
+          and share what's going on in your life.
+        </p>
       </Container>
     </div>
   )
