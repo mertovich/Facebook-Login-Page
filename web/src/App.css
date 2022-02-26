@@ -10,7 +10,9 @@
 }
 /* left end */
 
-
+*{
+  font-family: inherit;
+}
 /* right seciton */
 .right-section-div{
   margin-top: 15%;

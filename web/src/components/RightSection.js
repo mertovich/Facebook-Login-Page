@@ -21,7 +21,7 @@ const RightSection = () => {
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Control style={{
               padding: '12px',
-            }} type="email" placeholder="Enter email" />
+            }} type="email" placeholder="Email address or phone number" />
           </Form.Group>
           <Form.Group className="mb-3" controlId="formBasicPassword">
             <Form.Control style={{
@@ -42,7 +42,7 @@ const RightSection = () => {
             color: '#0b5ed7',
             textDecoration: 'none',
             fontSize: '1rem',
-          }}  >Did you forget your password?</a>
+          }}  >Forgotten password?</a>
         </Form>
         <div style={{
           textAlign: 'center',

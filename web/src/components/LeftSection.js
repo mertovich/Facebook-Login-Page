@@ -12,13 +12,10 @@ const LeftSection = () => {
           fontWeight: 'bold',
         }} >facebook</h1>
         <p style={{
-          fontSize: '1.3rem',
-          fontWeight: 'bold',
-          color: 'grey',
+          fontSize: '1.5rem',
           textAlign: 'justify',
         }}>
-          Facebook lets you communicate with people you know
-          and share what's going on in your life.
+          Facebook helps you connect and share with the people in your life.
         </p>
       </Container>
     </div>
