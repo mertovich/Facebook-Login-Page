@@ -8,7 +8,7 @@ const Home  = () => {
     <div style={{
         backgroundColor: '#f0f2f5',
         overflowX: 'hidden',
-        height: '100vh',
+        height: '80vh',
         width: '100%',
       }} >
       <Row>

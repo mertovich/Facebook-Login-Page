@@ -45,3 +45,19 @@
   }
 }
 /* end screen */
+
+/* footer li */
+.footer-li{
+  float: left;
+}
+.footer-li a{
+  text-decoration: none;
+  color: gray;
+  font-size: 0.8rem;
+  margin: 5px;
+}
+.footer-li a:hover{
+  text-decoration: underline;
+  color: gray;
+}
+/* footer end */
